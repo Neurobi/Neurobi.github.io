@@ -1,0 +1,1 @@
+$("#id_aboutus_table0_row0col0").append("<strong>About Us</strong><br><br>We are a U.S.A. based team of technical experts working together to deliver custom software products, designs, or consulting services to your company. With our help, you too can benefit from today’s revolution in intelligent computing.")

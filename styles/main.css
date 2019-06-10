@@ -1,0 +1,315 @@
+/* ____________________________________________________________________________ */
+/*            Welcome to the Neurobi Company website's Style Sheet!             */
+/* ____________________________________________________________________________ */
+/*                                                                              */
+/*        This content is organized alphabetically for ease of reference        */
+/*        All scaling is done in percentages to make the site responsive        */
+/*    The site has no left or right menu bars, making the layout row-dominant   */
+/*                                                                              */
+/* ____________________________________________________________________________ */
+
+#id_aboutus{
+    padding: 0%;
+    margin: 0%;
+    width: 100%; 
+    height: 50%;
+}
+
+#id_aboutus_table0{
+    padding: 0%;
+    margin: 0%;
+    width: 100%; 
+    height: 100%;
+}
+
+#id_aboutus_table0_row0{}
+
+#id_aboutus_table0_row0col0{
+    padding: 2%;
+    margin: 0%;
+    width: 33%; 
+    height: 100%;
+    color: #ffffff;
+    font-family: 'Encode Sans Expanded', sans-serif;
+}
+
+#id_aboutus_table0_row0col1{
+    padding: 2%;
+    margin: 0%;
+    width: 34%; 
+    height: 100%;
+    color: #ffffff;
+    font-family: 'Encode Sans Expanded', sans-serif;
+}
+
+#id_aboutus_table0_row0col2{
+    padding: 2%;
+    margin: 0%;
+    width: 33%; 
+    height: 100%;
+    color: #ffffff;
+    font-family: 'Encode Sans Expanded', sans-serif;
+}
+
+#id_body{
+    padding: 0%;
+    margin: 0%;
+    width: 100%; 
+    height: 100%;
+    background-image: linear-gradient(210deg,#7e77bb, #e68559);
+    background-size: cover;
+}
+
+#id_jumbotron{
+    padding: 0%;
+    margin: 0%;
+    width: 100%; 
+    height: 25%;
+    background-color: #00ff00;
+}
+
+#id_jumbotron_table0{
+    padding: 0%;
+    margin: 0%;
+    width: 100%; 
+    height: 100%;
+    background-color: #ff00ff;
+}
+
+#id_jumbotron_table0_row0{
+    background-color: #ffff00;
+}
+
+#id_jumbotron_table0_row0col0{
+    padding: 0%;
+    margin: 0%;
+    width: 33%; 
+    height: 100%;
+    background-color: #ffffff;
+}
+
+#id_jumbotron_table0_row0col1{
+    padding: 0%;
+    margin: 0%;
+    width: 34%; 
+    height: 100%;
+    background-color: #000000;
+}
+
+#id_jumbotron_table0_row0col2{
+    padding: 0%;
+    margin: 0%;
+    width: 33%; 
+    height: 100%;
+    background-color: #0000ff;
+}
+
+#id_meettheteam{
+    padding: 1%;
+    margin: 1%;
+    width: 100%; 
+    height: 100%;
+    color: #ffffff;
+    text-align: center;
+    font-family: 'Encode Sans Expanded', sans-serif;
+}
+
+#id_meettheteam_table0{
+    padding: 0%;
+    margin: 0%;
+    width: 90%; 
+    height: 90%;
+}
+
+#id_meettheteam_table0_row0{}
+
+#id_meettheteam_table0_row0col0{
+    padding: 3%;
+    margin: 0%;
+    width: 22%; 
+    height: 100%;
+    text-align: justify;
+    background-color: #ffffff;
+    font-family: 'Encode Sans Expanded', sans-serif;
+}
+
+#id_meettheteam_table0_row0col1{
+    padding: 3%;
+    margin: 0%;
+    width: 22%; 
+    height: 100%;
+    text-align: justify;
+    background-color: #ffffff;
+    font-family: 'Encode Sans Expanded', sans-serif;
+}
+
+#id_meettheteam_table0_row0col2{
+    padding: 3%;
+    margin: 0%;
+    width: 22%; 
+    height: 100%;
+    text-align: justify;
+    background-color: #ffffff;
+    font-family: 'Encode Sans Expanded', sans-serif;
+}
+
+#id_meettheteam_table0_row0col3{
+    padding: 3%;
+    margin: 0%;
+    width: 22%; 
+    height: 100%;
+    text-align: justify;
+    background-color: #ffffff;
+    font-family: 'Encode Sans Expanded', sans-serif;
+}
+
+#id_quote{
+    padding: 0%;
+    margin: 0%;
+    width: 100%; 
+    height: 50%;
+}
+
+#id_quote_table0{
+    padding: 0%;
+    margin: 0%;
+    width: 100%; 
+    height: 100%;
+    background-image: url("../assets/images/nasa-53884-unsplash.jpg");
+    background-size: cover;
+}
+
+#id_quote_table0_row0{
+    padding: 0%;
+    margin: 0%;
+    width: 100%; 
+    height: 100%;}
+
+#id_quote_table0_row0col0{
+    padding: 0%;
+    margin: 0%;
+    width: 100%; 
+    height: 100%;
+    text-align: center;
+    color: #ffffff;
+    font-family: 'Encode Sans Expanded', sans-serif;
+}
+
+#id_salespitch{
+    padding: 0%;
+    margin: 0%;
+    width: 100%; 
+    height: 25%;
+    background-color: #00ff00;
+}
+
+#id_salespitch_table0{
+    padding: 0%;
+    margin: 0%;
+    width: 100%; 
+    height: 100%;
+    background-color: #00ffff;
+}
+
+#id_salespitch_table0_row0{
+    background-color: #ff0000;
+}
+
+#id_salespitch_table0_row0col0{
+    padding: 0%;
+    margin: 0%;
+    width: 33%; 
+    height: 100%;
+    background-color: #ff00ff;
+}
+
+#id_salespitch_table0_row0col1{
+    padding: 0%;
+    margin: 0%;
+    width: 34%; 
+    height: 100%;
+    background-color: #ffff00;
+}
+
+#id_salespitch_table0_row0col2{
+    padding: 0%;
+    margin: 0%;
+    width: 33%; 
+    height: 100%;
+    background-color: #ffffff;
+}
+
+#id_sitecontainer{
+    padding: 0%;
+    margin: 0%;
+    width: 100%; 
+    height: 100%;
+}
+
+#id_sitefooter{
+    padding: 0%;
+    margin: 0%;
+    width: 100%; 
+    height: 5%;
+}
+
+#id_sitefooter_table0{
+    padding: 0%;
+    margin: 0%;
+    width: 100%; 
+    height: 100%;
+    background-color: #3b3b3b;
+}
+
+#id_sitefooter_table0_row0{
+}
+
+#id_sitefooter_table0_row0col0{
+    padding: 0%;
+    margin: 0%;
+    width: 34%; 
+    height: 100%;
+    text-align: center;
+    color: #999999;
+    font-family: 'Encode Sans Expanded', sans-serif;
+}
+
+#id_siteheader{
+    padding: 0%;
+    margin: 0%;
+    width: 100%; 
+    height: 10%;
+    background-color: #ffffff;
+}
+
+#id_siteheader_table0{
+    padding: 0%;
+    margin: 0%;
+    width: 100%; 
+    height: 100%;
+
+}
+
+#id_siteheader_table0_row0{
+}
+
+#id_siteheader_table0_row0col0{
+    padding: 0%;
+    margin: 0%;
+    width: 33%; 
+    height: 100%;
+}
+
+#id_siteheader_table0_row0col1{
+    padding: 0%;
+    margin: 0%;
+    width: 34%; 
+    height: 100%;
+}
+
+#id_siteheader_table0_row0col2{
+    padding: 0%;
+    margin: 0%;
+    width: 33%; 
+    height: 100%;
+}

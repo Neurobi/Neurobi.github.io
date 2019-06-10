@@ -1,0 +1,1 @@
+$("#id_siteheader_table0").append("")
