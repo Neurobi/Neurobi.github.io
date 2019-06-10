@@ -1,0 +1,1 @@
+$("#id_salespitch_table0_row0col2").append("t")

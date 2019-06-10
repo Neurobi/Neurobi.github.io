@@ -1,0 +1,1 @@
+$("#id_quote_table0").append("")

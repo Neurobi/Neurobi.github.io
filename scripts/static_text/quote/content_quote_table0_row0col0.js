@@ -1,0 +1,1 @@
+$("#id_quote_table0_row0col0").append('<strong>"AI is one of the most important things humanity is working on. It is more profound than electricity or fire"</strong><br><br>– Sundar Pichai, CEO, Google')
