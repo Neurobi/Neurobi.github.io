@@ -1,1 +1,1 @@
-$("#id_salespitch_table0_row0").append("q")
+$("#id_salespitch_table0_row0").append("")

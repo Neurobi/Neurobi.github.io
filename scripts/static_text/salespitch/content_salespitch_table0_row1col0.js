@@ -1,0 +1,1 @@
+$("#id_salespitch_table0_row1col0").append("We can help you understand your data by documenting our findings in a simple, streamlined report. In some cases, these reports can be made interactive (think Jupyter Notebooks). If you’re looking for a software solution in the form of a web/desktop/mobile application, we can do that too.")

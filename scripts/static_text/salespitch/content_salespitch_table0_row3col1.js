@@ -1,0 +1,1 @@
+$("#id_salespitch_table0_row3col1").append("<strong>Your Data helps you Predict the Future</strong>")

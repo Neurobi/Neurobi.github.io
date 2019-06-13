@@ -1,0 +1,1 @@
+$("#id_salespitch_table0_row4col0").append("Can’t quite interpret what your data is trying to tell you? We can mine your data for insights and find the factors that historically resulted in the highest impact on your bottom-line.")

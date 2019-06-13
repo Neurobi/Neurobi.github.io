@@ -1,0 +1,1 @@
+$("#id_salespitch_table0_row3col0").append("<strong>Your Data helps you Learn from the Past</strong>")

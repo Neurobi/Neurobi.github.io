@@ -1,1 +1,1 @@
-$("#id_jumbotron_table0_row0").append("k")
+$("#id_jumbotron_table0_row0").append("<img src='../Neurobi.github.io/assets/images/NeurobiLogo.png' alt='NeurobiLogo' style='all:inherit;'>")

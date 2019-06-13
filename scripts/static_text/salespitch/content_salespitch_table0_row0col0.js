@@ -1,1 +1,1 @@
-$("#id_salespitch_table0_row0col0").append("r")
+$("#id_salespitch_table0_row0col0").append("<strong>How can Neurobi improve my business?</strong>")
