@@ -1,0 +1,1 @@
+$("#id_salespitch_table0_row5col0").append("<strong>I need help interpreting my data. How do I start?</strong>")

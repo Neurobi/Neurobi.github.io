@@ -1,0 +1,1 @@
+$("#id_salespitch_table0_row4col1").append("Executives and decision makers need to know when trends change make the right calls. We can apply analytical tools on your data to help inform your business decisions.")

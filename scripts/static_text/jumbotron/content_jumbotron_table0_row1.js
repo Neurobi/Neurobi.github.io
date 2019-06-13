@@ -1,0 +1,1 @@
+$("#id_jumbotron_table0_row1").append("<strong>Hi, we're Neurobi - a Dedicated Team of Technical Talent turning Smart Algorithms into Products.</strong>")
