@@ -6,27 +6,42 @@
     <meta http-equiv="content-type" content="text/html; charset=utf-8">
     <meta charset="UTF-8">
     <meta name="description" content="The open-source Neurobi company website.">
-	<meta name="keywords" content="Neurobi, Company, Website, Open, Source, Code, HTML, CSS, Javascript, JS, Technology">
-	<meta name="author" content="Alexander Augenstein">
+  	<meta name="keywords" content="Neurobi, Company, Website, Open, Source, Code, HTML, CSS, Javascript, JS, Technology">
+	  <meta name="author" content="Alexander Augenstein">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
-    <!--v   Import anything that adds functionality to this site   v-->
-	<link href="https://fonts.googleapis.com/css?family=Encode+Sans+Expanded&display=swap" rel="stylesheet"> 
-	<link type="text/css" href="./styles/main.css" rel="stylesheet">
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js">
+    <!--v   Import stylesheet and jQuery   v-->
+	  <link type="text/css" href="./styles/main.css" rel="stylesheet">
+	  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js">
     </script>
-	<script type="text/javascript"> 
-      // Let's load each function individually
-      document.writeln("<script type='text/javascript' src='./scripts/displaypossiblemodeout.js'><" + "/script>");
-      // Now we can use the functions in a script that calls them.
-      document.writeln("<script type='text/javascript' src='./scripts/main.js'><" + "/script>");
-    </script>
-  </head>
+
+    <!--
+           You'll notice below that all content is stored in separate .js files.
+           This design choice is not the best option for Search Engine Optimization (SEO)
+           but in the opinion of Neurobi Company it makes for optimally readable and
+           maintainable code.
+           If you're seeking to learn how to write clean html/css/js, this site was
+           written with you in mind! If you have any questions, please ask in the
+           issues section for this repo on GitHub.
+    -->
+    </head>
 
   <body id="id_body">
+
     <!--v   Open SiteContainer   v-->
     <div id="id_sitecontainer">
-      
+
+      <div id="id_effect">
+        <div id="id_effect_div1">
+          <svg id="id_dynamic_svg">
+          </svg>
+        </div>
+        <div id="id_effect_div2">
+          <svg id="id_effect_svg1">
+          </svg>
+        </div>
+      </div>
+
       <div id="id_siteheader">
         <table id="id_siteheader_table0">
           <script type="text/javascript" src="./scripts/static_text/siteheader/content_siteheader_table0.js">
@@ -48,6 +63,7 @@
       
       <div id="id_jumbotron">
         <table id="id_jumbotron_table0">
+
           <script type="text/javascript" src="./scripts/static_text/jumbotron/content_jumbotron_table0.js">
           </script>
           <!--v   Open Row0   v-->
@@ -288,8 +304,23 @@
         </table>
       </div>
 
-	</div>	
+	  </div>	
     <!--^   Close SiteContainer   ^-->
+
+    <!--v   Open script tag for the triangle graphic effect   v-->
+    <script type="text/javascript">
+      document.writeln("<script type='text/javascript' src='./scripts/triangle_effect/colorPick.js'><" + "/script>");
+      document.writeln("<script type='text/javascript' src='./scripts/triangle_effect/drawPrism.js'><" + "/script>");
+      document.writeln("<script type='text/javascript' src='./scripts/triangle_effect/formPrism.js'><" + "/script>");
+      document.writeln("<script type='text/javascript' src='./scripts/triangle_effect/getPossibilityRange.js'><" + "/script>");
+      document.writeln("<script type='text/javascript' src='./scripts/triangle_effect/giveColor.js'><" + "/script>");
+      document.writeln("<script type='text/javascript' src='./scripts/triangle_effect/indexOfmin.js'><" + "/script>");
+      document.writeln("<script type='text/javascript' src='./scripts/triangle_effect/inside.js'><" + "/script>");
+      document.writeln("<script type='text/javascript' src='./scripts/triangle_effect/pickAngleInRange.js'><" + "/script>");
+      document.writeln("<script type='text/javascript' src='./scripts/triangle_effect/main.js'><" + "/script>");
+    </script>
+    <!--v   Close script tag for the triangle graphic effect   v-->
 
   </body>
 <html>
+
