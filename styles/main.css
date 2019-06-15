@@ -196,6 +196,8 @@
             #id_meettheteam{
                 display: unset;
                 display: block;
+                max-width: unset;
+                max-width: 2.25in;
             }
         }
 
@@ -214,6 +216,8 @@
                 #id_meettheteam_table0{
                     display: unset;
                     display: block;
+                    max-width: unset;
+                    max-width: 2.25in;
                 }
             }
 
@@ -228,6 +232,8 @@
                     #id_meettheteam_table0_row0{
                         display: unset;
                         display: block;
+                        max-width: unset;
+                        max-width: 2.25in;
                     }
                 }
   
@@ -250,6 +256,13 @@
                         vertical-align: top;
                     }
 
+                    @media (max-width:725px) {
+                        #id_meettheteam_table0_row0_col0{
+                            max-width: unset;
+                            max-width: 2.25in;
+                        }
+                    }
+
                     #id_meettheteam_table0_row0col1{
                         font-family: inherit;
       
@@ -267,6 +280,13 @@
                         border-radius: 2em;
                         text-align: center;
                         vertical-align: top;
+                    }
+
+                    @media (max-width:725px) {
+                        #id_meettheteam_table0_row0_col1{
+                            max-width: unset;
+                            max-width: 2.25in;
+                        }
                     }
 
                     #id_meettheteam_table0_row0col2{
@@ -288,6 +308,13 @@
                         vertical-align: top;
                     }
 
+                    @media (max-width:725px) {
+                        #id_meettheteam_table0_row0_col2{
+                            max-width: unset;
+                            max-width: 2.25in;
+                        }
+                    }
+
                     #id_meettheteam_table0_row0col3{
                         font-family: inherit;
       
@@ -305,6 +332,13 @@
                         border-radius: 2em;
                         text-align: center;
                         vertical-align: top;
+                    }
+
+                    @media (max-width:725px) {
+                        #id_meettheteam_table0_row0_col3{
+                            max-width: unset;
+                            max-width: 2.25in;
+                        }
                     }
 
         #id_quote{
