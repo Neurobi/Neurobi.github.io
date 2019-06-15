@@ -605,14 +605,16 @@
             width: inherit; 
 
             background-color: #ffffff;
-            height: 10%;
+            min-height: 10%;
         }
 
             #id_siteheader_table0{
                 font-family: inherit;
                 width: inherit; 
 
-                height: 100%;
+                height: auto;
+                padding-bottom: 0.5%;
+                padding-top: 0.5%;
             }
 
                 #id_siteheader_table0_row0{
@@ -630,6 +632,8 @@
                     }
 
                     #id_siteheader_table0_row0col1{
+                        padding-bottom: 0.5%;
                         padding-right: 5%;
+                        padding-top: 0.5%;
                         pointer-events: all;
                      }
