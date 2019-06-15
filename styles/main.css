@@ -183,7 +183,7 @@
 
             color: #ffffff;
             display: block;
-            font-size: 100%;
+            font-size: 150%;
             height: auto;
             margin: 2%;
             padding: 2%;
@@ -232,6 +232,7 @@
                     font-family: inherit;
 
                     display: inline-block;
+                    font-size: 65%;
                     pointer-events: none;
                 }
 
@@ -239,6 +240,7 @@
                     #id_meettheteam_table0_row0{
                         display: unset;
                         display: block;
+                        font-size: 65%;
                         margin-left: auto;
                         margin-right: auto;
                         max-width: unset;
@@ -248,6 +250,7 @@
   
                     #id_meettheteam_table0_row0col0{
                         font-family: inherit;
+                        font-size: inherit;
       
                         background-color: #ffffff;
                         box-shadow: -5px 0px 5px rgba(124,124,124,0.5) inset;
@@ -269,6 +272,7 @@
                         #id_meettheteam_table0_row0_col0{
                             display: unset;
                             display: block;
+                            font-size: inherit;
                             margin-left: auto;
                             margin-right: auto;
                             max-width: unset;
@@ -278,6 +282,7 @@
 
                     #id_meettheteam_table0_row0col1{
                         font-family: inherit;
+                        font-size: inherit;
       
                         background-color: #ffffff;
                         box-shadow: -5px 0px 5px rgba(124,124,124,0.5) inset;
@@ -299,6 +304,7 @@
                         #id_meettheteam_table0_row0_col1{
                             display: unset;
                             display: block;
+                            font-size: inherit;
                             margin-left: auto;
                             margin-right: auto;
                             max-width: unset;
@@ -308,6 +314,7 @@
 
                     #id_meettheteam_table0_row0col2{
                         font-family: inherit;
+                        font-size: inherit;
       
                         background-color: #ffffff;
                         box-shadow: -5px 0px 5px rgba(124,124,124,0.5) inset;
@@ -329,6 +336,7 @@
                         #id_meettheteam_table0_row0_col2{
                             display: unset;
                             display: block;
+                            font-size: inherit;
                             margin-left: auto;
                             margin-right: auto;
                             max-width: unset;
@@ -338,6 +346,7 @@
 
                     #id_meettheteam_table0_row0col3{
                         font-family: inherit;
+                        font-size: inherit;
       
                         background-color: #ffffff;
                         box-shadow: -5px 0px 5px rgba(124,124,124,0.5) inset;
@@ -359,6 +368,7 @@
                         #id_meettheteam_table0_row0_col3{
                             display: unset;
                             display: block;
+                            font-size: inherit;
                             margin-left: auto;
                             margin-right: auto;
                             max-width: unset;
