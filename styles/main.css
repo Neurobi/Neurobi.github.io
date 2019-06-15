@@ -605,14 +605,14 @@
             width: inherit; 
 
             background-color: #ffffff;
-            height: 10%;
+            min-height: 10%;
         }
 
             #id_siteheader_table0{
                 font-family: inherit;
                 width: inherit; 
 
-                height: 100%;
+                height: auto;
             }
 
                 #id_siteheader_table0_row0{
