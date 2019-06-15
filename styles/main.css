@@ -186,11 +186,16 @@
             font-size: 140%;
             height: auto;
             margin: 2%;
-            max-width: initial;
             padding: 2%;
             pointer-events: none;
             width: auto; 
             text-align: center;
+        }
+
+        @media (max-width:725px) {
+            #id_meettheteam{
+                max-width: 400px;
+            }
         }
 
             #id_meettheteam_table0{
@@ -200,9 +205,14 @@
                 height: auto;
                 margin-left: auto;
                 margin-right: auto;
-                max-width: initial;
                 pointer-events: none;
                 width: auto; 
+            }
+
+            @media (max-width:725px) {
+                #id_meettheteam_table0{
+                    max-width: 400px;
+                }
             }
 
                 #id_meettheteam_table0_row0{
@@ -214,7 +224,7 @@
 
                 @media (max-width:725px) {
                     #id_meettheteam_table0_row0{
-                        display: block;
+                        max-width: 400px;
                     }
                 }
   
