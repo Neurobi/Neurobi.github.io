@@ -628,3 +628,8 @@
                         text-align: left;
                         width: auto; 
                     }
+
+                    #id_siteheader_table0_row0col1{
+                        padding-right: 5%;
+                        pointer-events: all;
+                     }
