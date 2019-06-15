@@ -206,8 +206,14 @@
                 #id_meettheteam_table0_row0{
                     font-family: inherit;
 
-                    display: block;
+                    display: inline-block;
                     pointer-events: none;
+                }
+
+                @media (max-width:725px) {
+                    #id_meettheteam_table0_row0{
+                        display: block;
+                    }
                 }
   
                     #id_meettheteam_table0_row0col0{
@@ -215,7 +221,7 @@
       
                         background-color: #ffffff;
                         box-shadow: -5px 0px 5px rgba(124,124,124,0.5) inset;
-                        display: inline-block;
+                        display: inherit;
                         height: auto;
                         max-width: 20%;
                         min-width: 2in;
@@ -234,7 +240,7 @@
       
                         background-color: #ffffff;
                         box-shadow: -5px 0px 5px rgba(124,124,124,0.5) inset;
-                        display: inline-block;
+                        display: inherit;
                         height: auto;
                         max-width: 20%;
                         min-width: 2in;
@@ -253,7 +259,7 @@
       
                         background-color: #ffffff;
                         box-shadow: -5px 0px 5px rgba(124,124,124,0.5) inset;
-                        display: inline-block;
+                        display: inherit;
                         height: auto;
                         max-width: 20%;
                         min-width: 2in;
@@ -272,7 +278,7 @@
       
                         background-color: #ffffff;
                         box-shadow: -5px 0px 5px rgba(124,124,124,0.5) inset;
-                        display: inline-block;
+                        display: inherit;
                         height: auto;
                         max-width: 20%;
                         min-width: 2in;
