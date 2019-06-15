@@ -13,6 +13,8 @@
     background-attachment: fixed;
     background-image: linear-gradient(210deg,#7e77bb, #e68559);
     background-size: cover;
+    overflow: hidden;
+    overflow-y: auto;
     display: block;
     height: 100%;
     margin: 0%;
