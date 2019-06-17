@@ -44,13 +44,41 @@
     
                     #id_meettheteam_table0_row0{ }
       
-                        #id_meettheteam_table0_row0col0{ }
+                        #id_meettheteam_table0_row0col0{
+                            max-width: 40%;
+                        }
+
+                            #id_meettheteam_table0_row0col0_img0{
+                                max-width:100%;
+                                height:auto;
+                            }
     
-                        #id_meettheteam_table0_row0col1{ }
+                        #id_meettheteam_table0_row0col1{
+                            max-width: 40%;
+                        }
+
+                            #id_meettheteam_table0_row0col1_img0{
+                                max-width:100%;
+                                height:auto;
+                            }
     
-                        #id_meettheteam_table0_row0col2{ }
+                        #id_meettheteam_table0_row0col2{
+                            max-width: 40%;
+                        }
+
+                            #id_meettheteam_table0_row0col2_img0{
+                                max-width:100%;
+                                height:auto;
+                            }
     
-                        #id_meettheteam_table0_row0col3{ }
+                        #id_meettheteam_table0_row0col3{
+                            max-width: 40%;
+                        }
+
+                            #id_meettheteam_table0_row0col3_img0{
+                                max-width:100%;
+                                height:auto;
+                            }
     
             #id_quote{ }
     
@@ -112,7 +140,11 @@
     
                     #id_siteheader_table0_row0{ }
     
-                        #id_siteheader_table0_row0col0{ }
+                        #id_siteheader_table0_row0col0{
+                            font-size: 2.25vw;
+                            padding-left: 5%;
+                            width: 90%; 
+                        }
     
                         #id_siteheader_table0_row0col1{ }
 }
