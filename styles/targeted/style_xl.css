@@ -1,0 +1,118 @@
+/*Intended for extra large devices (tv's and larger)*/
+
+@media only screen and (min-device-width : 1200px) {
+
+    #id_body{ }
+    
+        #id_effect{  }
+    
+            #id_effect_div1{ }
+    
+                #id_dynamic_svg{ }
+            
+            #id_effect_div2{ }
+    
+                #id_effect_svg1{ }
+    
+        #id_sitecontainer{ }
+    
+            #id_aboutus{ }
+    
+                #id_aboutus_table0{ }
+    
+                    #id_aboutus_table0_row0{ }
+    
+                        #id_aboutus_table0_row0col0{ }
+    
+                        #id_aboutus_table0_row0col1{ }    
+    
+                        #id_aboutus_table0_row0col2{ }
+    
+            #id_jumbotron{ }
+    
+                #id_jumbotron_table0{ }
+    
+                    #id_jumbotron_table0_row0{ }
+    
+                    #id_jumbotron_table0_row1{ }
+    
+                    #id_jumbotron_table0_row2{ }
+    
+            #id_meettheteam{ }
+    
+                #id_meettheteam_table0{ }
+    
+                    #id_meettheteam_table0_row0{ }
+      
+                        #id_meettheteam_table0_row0col0{ }
+    
+                        #id_meettheteam_table0_row0col1{ }
+    
+                        #id_meettheteam_table0_row0col2{ }
+    
+                        #id_meettheteam_table0_row0col3{ }
+    
+            #id_quote{ }
+    
+                #id_quote_table0{ }
+    
+                    #id_quote_table0_row0{ }
+    
+                        #id_quote_table0_row0col0{ }
+    
+            #id_salespitch{ }
+    
+                #id_salespitch_table0{ }
+    
+                    #id_salespitch_table0_row0{ }
+    
+                        #id_salespitch_table0_row0col0{ }
+    
+                    #id_salespitch_table0_row1{ }
+    
+                        #id_salespitch_table0_row1col0{ }    
+    
+                    #id_salespitch_table0_row2{ }
+    
+                        #id_salespitch_table0_row2col0{ }
+    
+                        #id_salespitch_table0_row2col1{ }
+    
+                    #id_salespitch_table0_row3{ }
+    
+                        #id_salespitch_table0_row3col0{ }    
+    
+                        #id_salespitch_table0_row3col1{ }
+    
+                    #id_salespitch_table0_row4{ }
+    
+                        #id_salespitch_table0_row4col0{ }
+    
+                        #id_salespitch_table0_row4col1{ }
+    
+                    #id_salespitch_table0_row5{ }
+    
+                        #id_salespitch_table0_row5col0{ }
+    
+                    #id_salespitch_table0_row6{ }
+    
+                        #id_salespitch_table0_row6col0{ }
+    
+            #id_sitefooter{ }
+    
+                #id_sitefooter_table0{ }  
+    
+                    #id_sitefooter_table0_row0{ }
+    
+                        #id_sitefooter_table0_row0col0{ }
+    
+            #id_siteheader{ }
+    
+                #id_siteheader_table0{ }
+    
+                    #id_siteheader_table0_row0{ }
+    
+                        #id_siteheader_table0_row0col0{ }
+    
+                        #id_siteheader_table0_row0col1{ }
+}

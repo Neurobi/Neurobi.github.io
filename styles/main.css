@@ -9,20 +9,16 @@
 /*                    without needing to look at the HTML                       */
 /* ____________________________________________________________________________ */
 
+
 #id_body{
     background-attachment: fixed;
     background-image: linear-gradient(210deg,#7e77bb, #e68559);
     background-size: cover;
+    display: block;
     overflow: hidden;
     overflow-x: hidden;
     overflow-y: auto;
-    display: block;
-    height: 100%;
-    margin: 0%;
-    max-width: initial;
-    padding: 0%;
     pointer-events: none;
-    width: 100%; 
     z-index: 1;
 }
 
@@ -52,28 +48,20 @@
             #id_effect_svg1{ }
 
     #id_sitecontainer{
-        height: inherit;
-        width: inherit; 
-        z-index: 2;
-
         display: block;
-        pointer-events: none;
         font-family: 'Encode Sans Expanded', sans-serif;
+        pointer-events: none;
+        z-index: 2;
     }
 
         #id_aboutus{
-            font-family: inherit;
-            width: inherit; 
-
             color: #ffffff;
-            height: auto;
+            font-family: inherit;
         }
 
             #id_aboutus_table0{
                 color: inherit;
                 font-family: inherit;
-                height: inherit;
-                width: inherit; 
             }
 
                 #id_aboutus_table0_row0{
@@ -86,348 +74,150 @@
                         color: inherit;
                         font-family: inherit;
                         vertical-align: inherit;
-
-                        padding-bottom: 5%;
-                        padding-left: 2%;
-                        padding-right: 2%;
-                        padding-top: 5%;
-                        width: 33%; 
                     }
 
                     #id_aboutus_table0_row0col1{
                         color: inherit;
                         font-family: inherit;
                         vertical-align: inherit;
-    
-                        padding-bottom: 5%;
-                        padding-left: 2%;
-                        padding-right: 2%;
-                        padding-top: 5%;
-                        width: 34%; 
                     }    
 
                     #id_aboutus_table0_row0col2{
                         color: inherit;
                         font-family: inherit;
                         vertical-align: inherit;
-
-                        padding-bottom: 5%;
-                        padding-left: 2%;
-                        padding-right: 2%;
-                        padding-top: 5%;
-                        width: 33%;     
                     }
 
         #id_jumbotron{
-            font-family: inherit;
-            width: inherit; 
-
             display: block;
-            height: auto;
-            min-height: 100%;
+            font-family: inherit;
             pointer-events: none;
         }
 
             #id_jumbotron_table0{
-                font-family: inherit;
-                width: inherit; 
-
                 display: block;
-                height: auto;
+                font-family: inherit;
                 pointer-events: none;
                 text-align: center;
             }
 
                 #id_jumbotron_table0_row0{
-                    font-family: inherit;
-                    width: inherit; 
-    
                     display: block;
-                    height: auto;
-                    margin-left: auto;
-                    margin-right: auto;
-                    max-width: 60%;
-                    padding: 3%;
+                    font-family: inherit;
                     pointer-events: none;
                 }
 
                 #id_jumbotron_table0_row1{
-                    font-family: inherit;
-                    width: inherit; 
-
                     color: #ffffff;
                     display: block;
-                    font-size: 200%;
-                    height: auto;
-                    margin: 3%;
-                    padding: 3%;
+                    font-family: inherit;
                     pointer-events: none;
                     text-align: center;
                 }
 
                 #id_jumbotron_table0_row2{
-                    font-family: inherit;
-                    width: inherit; 
-
                     color: #ffffff;
                     display: block;
-                    height: auto;
-                    margin: 3%;
-                    padding: 3%;
+                    font-family: inherit;
                     pointer-events: none;
                     text-align: center;
                 }
 
         #id_meettheteam{
-            font-family: inherit;
-
             color: #ffffff;
             display: block;
-            font-size: 150%;
-            height: auto;
-            margin: 2%;
-            padding: 2%;
+            font-family: inherit;
             pointer-events: none;
-            width: auto; 
             text-align: center;
         }
 
-        @media (max-width:725px) {
-            #id_meettheteam{
-                display: unset;
-                display: block;
-                margin-left: auto;
-                margin-right: auto;
-                max-width: unset;
-                max-width: 2.25in;
-            }
-        }
-
             #id_meettheteam_table0{
-                font-family: inherit;
-
                 color: #000000;
                 display: block;
-                height: auto;
-                margin-left: auto;
-                margin-right: auto;
-                padding-bottom: 2%;
-                padding-top: 2%;
+                font-family: inherit;
                 pointer-events: none;
-                width: auto; 
-            }
-
-            @media (max-width:725px) {
-                #id_meettheteam_table0{
-                    display: unset;
-                    display: block;
-                    margin-left: auto;
-                    margin-right: auto;
-                    max-width: unset;
-                    max-width: 2.25in;
-                }
             }
 
                 #id_meettheteam_table0_row0{
-                    font-family: inherit;
-
                     display: inline-block;
-                    font-size: 65%;
+                    font-family: inherit;
                     pointer-events: none;
-                }
-
-                @media (max-width:725px) {
-                    #id_meettheteam_table0_row0{
-                        display: unset;
-                        display: block;
-                        font-size: 65%;
-                        margin-left: auto;
-                        margin-right: auto;
-                        max-width: unset;
-                        max-width: 2.25in;
-                    }
                 }
   
                     #id_meettheteam_table0_row0col0{
-                        font-family: inherit;
-                        font-size: inherit;
-      
                         background-color: #ffffff;
+                        border-radius: 2em;
                         box-shadow: -5px 0px 5px rgba(124,124,124,0.5) inset;
                         display: inherit;
-                        height: auto;
-                        max-width: 20%;
-                        min-width: 2in;
-                        padding-bottom: 5%;
-                        padding-left: 2%;
-                        padding-right: 2%;
-                        padding-top: 5%;
+                        font-family: inherit;      
                         pointer-events: all;
-                        border-radius: 2em;
                         text-align: center;
                         vertical-align: top;
-                    }
-
-                    @media (max-width:725px) {
-                        #id_meettheteam_table0_row0_col0{
-                            display: unset;
-                            display: block;
-                            font-size: inherit;
-                            margin-left: auto;
-                            margin-right: auto;
-                            max-width: unset;
-                            max-width: 2.25in;
-                        }
                     }
 
                     #id_meettheteam_table0_row0col1{
-                        font-family: inherit;
-                        font-size: inherit;
-      
                         background-color: #ffffff;
+                        border-radius: 2em;
                         box-shadow: -5px 0px 5px rgba(124,124,124,0.5) inset;
                         display: inherit;
-                        height: auto;
-                        max-width: 20%;
-                        min-width: 2in;
-                        padding-bottom: 5%;
-                        padding-left: 2%;
-                        padding-right: 2%;
-                        padding-top: 5%;
+                        font-family: inherit;      
                         pointer-events: all;
-                        border-radius: 2em;
                         text-align: center;
                         vertical-align: top;
-                    }
-
-                    @media (max-width:725px) {
-                        #id_meettheteam_table0_row0_col1{
-                            display: unset;
-                            display: block;
-                            font-size: inherit;
-                            margin-left: auto;
-                            margin-right: auto;
-                            max-width: unset;
-                            max-width: 2.25in;
-                        }
                     }
 
                     #id_meettheteam_table0_row0col2{
-                        font-family: inherit;
-                        font-size: inherit;
-      
                         background-color: #ffffff;
                         box-shadow: -5px 0px 5px rgba(124,124,124,0.5) inset;
                         display: inherit;
-                        height: auto;
-                        max-width: 20%;
-                        min-width: 2in;
-                        padding-bottom: 5%;
-                        padding-left: 2%;
-                        padding-right: 2%;
-                        padding-top: 5%;
+                        font-family: inherit;      
                         pointer-events: all;
                         border-radius: 2em;
                         text-align: center;
                         vertical-align: top;
-                    }
-
-                    @media (max-width:725px) {
-                        #id_meettheteam_table0_row0_col2{
-                            display: unset;
-                            display: block;
-                            font-size: inherit;
-                            margin-left: auto;
-                            margin-right: auto;
-                            max-width: unset;
-                            max-width: 2.25in;
-                        }
                     }
 
                     #id_meettheteam_table0_row0col3{
-                        font-family: inherit;
-                        font-size: inherit;
-      
                         background-color: #ffffff;
+                        border-radius: 2em;
                         box-shadow: -5px 0px 5px rgba(124,124,124,0.5) inset;
                         display: inherit;
-                        height: auto;
-                        max-width: 20%;
-                        min-width: 2in;
-                        padding-bottom: 5%;
-                        padding-left: 2%;
-                        padding-right: 2%;
-                        padding-top: 5%;
+                        font-family: inherit;      
                         pointer-events: all;
-                        border-radius: 2em;
                         text-align: center;
                         vertical-align: top;
-                    }
-
-                    @media (max-width:725px) {
-                        #id_meettheteam_table0_row0_col3{
-                            display: unset;
-                            display: block;
-                            font-size: inherit;
-                            margin-left: auto;
-                            margin-right: auto;
-                            max-width: unset;
-                            max-width: 2.25in;
-                        }
                     }
 
         #id_quote{
             font-family: inherit;
-            width: inherit; 
-
-            height: auto;
         }
 
             #id_quote_table0{
-                font-family: inherit;
-                width: inherit; 
-
                 background-image: url("../assets/images/nasa-53884-unsplash.jpg");
                 background-size: cover;
+                font-family: inherit;
             }
 
                 #id_quote_table0_row0{
                     font-family: inherit;
-                    width: inherit; 
                 }
 
                     #id_quote_table0_row0col0{
-                        font-family: inherit;
-                        width: inherit; 
-
                         color: #ffffff;
-                        font-size: 120%;
-                        letter-spacing: 1px;
-                        padding: 15%;
+                        font-family: inherit;
                         text-align: center;
                     }
 
         #id_salespitch{
-            font-family: inherit;
-
             background-color: #ffffff;
-            height: auto;
+            font-family: inherit;
             text-align: center;
-            width: auto; 
         }
 
             #id_salespitch_table0{
-                font-family: inherit;
-
-                align-content: center;
                 background-color: #ffffff;
-                height: auto;
-                margin-left: auto;
-                margin-right: auto;
-                max-width: 10in;
-                padding: 2%;
+                font-family: inherit;
                 text-align: center;
-                width: auto; 
             }
 
                 #id_salespitch_table0_row0{
@@ -436,12 +226,6 @@
 
                     #id_salespitch_table0_row0col0{
                         font-family: inherit;
-
-                        font-size: 160%;
-                        height: auto;
-                        margin: 2%;
-                        padding: 2%;
-                        width: auto; 
                     }
 
                 #id_salespitch_table0_row1{
@@ -453,12 +237,7 @@
                     #id_salespitch_table0_row1col0{
                         background-color: inherit;
                         font-family: inherit;
-
-                        height: auto;
-                        margin: 2%;
-                        padding: 2%;
                         text-align: left;
-                        width: auto; 
                     }    
 
                 #id_salespitch_table0_row2{
@@ -469,21 +248,11 @@
                     #id_salespitch_table0_row2col0{
                         background-color: inherit;
                         font-family: inherit;
-     
-                        height: auto;
-                        margin: 2%;
-                        padding: 2%;
-                        width: auto; 
                     }
 
                     #id_salespitch_table0_row2col1{
                         background-color: inherit;
                         font-family: inherit;
-
-                        height: auto;
-                        margin: 2%;
-                        padding: 2%;
-                        width: auto; 
                     }
 
                 #id_salespitch_table0_row3{
@@ -494,23 +263,11 @@
                     #id_salespitch_table0_row3col0{
                         background-color: inherit;
                         font-family: inherit;
-
-                        font-size: 150%;
-                        height: auto;
-                        margin: 2%;
-                        padding: 2%;
-                        width: auto; 
                     }    
 
                     #id_salespitch_table0_row3col1{
                         background-color: inherit;
                         font-family: inherit;
-
-                        font-size: 150%;
-                        height: auto;
-                        margin: 2%;
-                        padding: 2%;
-                        width: auto; 
                     }
 
                 #id_salespitch_table0_row4{
@@ -521,23 +278,11 @@
                     #id_salespitch_table0_row4col0{
                         background-color: inherit;
                         font-family: inherit;
-    
-                        height: auto;
-                        margin: 2%;
-                        padding: 2%;
-                        text-align: left;
-                        width: auto; 
                     }
 
                     #id_salespitch_table0_row4col1{
                         background-color: inherit;
                         font-family: inherit;
-
-                        height: auto;
-                        margin: 2%;
-                        padding: 2%;
-                        text-align: left;
-                        width: auto; 
                     }
 
                 #id_salespitch_table0_row5{
@@ -548,12 +293,6 @@
                     #id_salespitch_table0_row5col0{
                         background-color: inherit;
                         font-family: inherit;
-
-                        font-size: 140%;
-                        height: auto;
-                        margin: 2%;    
-                        padding: 2%;
-                        width: auto; 
                     }
 
                 #id_salespitch_table0_row6{
@@ -564,27 +303,15 @@
                     #id_salespitch_table0_row6col0{
                         background-color: inherit;
                         font-family: inherit;
-
-                        font-size: 110%;
-                        height: auto;
-                        margin: 2%;
-                        padding: 2%;
-                        width: auto; 
                     }
 
         #id_sitefooter{
             font-family: inherit;
-            width: inherit; 
-
-            height: 5%;
         }
 
             #id_sitefooter_table0{
-                font-family: inherit;
-                width: inherit; 
-
                 background-color: #3b3b3b;
-                height: 100%;
+                font-family: inherit;
             }  
 
                 #id_sitefooter_table0_row0{
@@ -592,29 +319,18 @@
                 }
 
                     #id_sitefooter_table0_row0col0{
-                        font-family: inherit;  
-
                         color: #999999;
-                        font-size: 80%;
+                        font-family: inherit;  
                         text-align: center;
-                        width: 34%; 
                     }
 
         #id_siteheader{
-            font-family: inherit;
-            width: inherit; 
-
             background-color: #ffffff;
-            min-height: 10%;
+            font-family: inherit;
         }
 
             #id_siteheader_table0{
                 font-family: inherit;
-                width: inherit; 
-
-                height: auto;
-                padding-bottom: 0.5%;
-                padding-top: 0.5%;
             }
 
                 #id_siteheader_table0_row0{
@@ -624,16 +340,9 @@
 
                     #id_siteheader_table0_row0col0{
                         font-family: inherit;
-
-                        font-size: 120%;
-                        padding-left: 5%;
                         text-align: left;
-                        width: auto; 
                     }
 
                     #id_siteheader_table0_row0col1{
-                        padding-bottom: 0.5%;
-                        padding-right: 5%;
-                        padding-top: 0.5%;
                         pointer-events: all;
                      }
