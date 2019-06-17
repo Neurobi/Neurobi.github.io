@@ -1,0 +1,363 @@
+/*Intended for cell phones and smaller
+
+  The inheritance structure is "mobile-first"
+  in the sense that the core functionality
+  is defined for mobile, and any deviations
+  from the mobile design are explicitly
+  accounted for in screen sizes above this*/
+
+#id_body{
+    height: 100%;
+    margin: 0%;
+    max-width: initial;
+    padding: 0%;
+    width: 100%; 
+}
+
+    #id_effect{  }
+
+        #id_effect_div1{ }
+
+            #id_dynamic_svg{ }
+        
+        #id_effect_div2{ }
+
+            #id_effect_svg1{ }
+
+    #id_sitecontainer{
+        height: inherit;
+        width: inherit; 
+    }
+
+        #id_aboutus{
+            width: inherit; 
+            height: auto;
+        }
+
+            #id_aboutus_table0{
+                height: inherit;
+                width: inherit; 
+            }
+
+                #id_aboutus_table0_row0{ }
+
+                    #id_aboutus_table0_row0col0{    
+                        font-size: 2.25vw;
+                        padding-bottom: 5%;
+                        padding-left: 2%;
+                        padding-right: 2%;
+                        padding-top: 5%;
+                        width: 33%; 
+                    }
+
+                    #id_aboutus_table0_row0col1{
+                        font-size: 2.25vw;
+                        padding-bottom: 5%;
+                        padding-left: 2%;
+                        padding-right: 2%;
+                        padding-top: 5%;
+                        width: 34%; 
+                    }    
+
+                    #id_aboutus_table0_row0col2{
+                        font-size: 2.25vw;
+                        padding-bottom: 5%;
+                        padding-left: 2%;
+                        padding-right: 2%;
+                        padding-top: 5%;
+                        width: 33%;     
+                    }
+
+        #id_jumbotron{
+            height: auto;
+            width: inherit; 
+        }
+
+            #id_jumbotron_table0{
+                height: auto;
+                width: inherit; 
+            }
+
+                #id_jumbotron_table0_row0{
+                    height: auto;
+                    margin-left: auto;
+                    margin-right: auto;
+                    max-width: 70%;
+                    padding-top: 3%;
+                    width: inherit; 
+                }
+
+                #id_jumbotron_table0_row1{
+                    font-size: 4vw;
+                    height: auto;
+                    margin: 3%;
+                    padding-bottom: 3%;
+                    padding-left: 3%;
+                    padding-right: 3%;
+                    width: inherit; 
+                }
+
+                #id_jumbotron_table0_row2{
+                    height: auto;
+                    margin: 3%;
+                    padding: 3%;
+                    width: inherit; 
+                }
+
+        #id_meettheteam{
+            font-size: 3.25vw;
+            height: auto;
+            margin: 2%;
+            padding: 2%;
+            width: auto; 
+        }
+
+            #id_meettheteam_table0{
+                height: auto;
+                margin-left: auto;
+                margin-right: auto;
+                padding-bottom: 2%;
+                padding-top: 2%;
+                width: auto; 
+            }
+
+                #id_meettheteam_table0_row0{
+                    font-size: 2.25vw;
+                }
+  
+                    #id_meettheteam_table0_row0col0{
+                        font-size: inherit;
+                        height: auto;
+                        max-width: 80%;
+                        padding-bottom: 5%;
+                        padding-left: 2%;
+                        padding-right: 2%;
+                        padding-top: 5%;
+                    }
+
+                        #id_meettheteam_table0_row0col0_img0{
+                            max-width:30%;
+                            height:auto;
+                        }
+
+                    #id_meettheteam_table0_row0col1{
+                        font-size: inherit;
+                        height: auto;
+                        max-width: 80%;
+                        padding-bottom: 5%;
+                        padding-left: 2%;
+                        padding-right: 2%;
+                        padding-top: 5%;
+                    }
+
+                        #id_meettheteam_table0_row0col1_img0{
+                            max-width:30%;
+                            height:auto;
+                        }
+
+                    #id_meettheteam_table0_row0col2{
+                        font-size: inherit;
+                        height: auto;
+                        max-width: 80%;
+                        padding-bottom: 5%;
+                        padding-left: 2%;
+                        padding-right: 2%;
+                        padding-top: 5%;
+                    }
+
+                        #id_meettheteam_table0_row0col2_img0{
+                            max-width:30%;
+                            height:auto;
+                        }
+
+                    #id_meettheteam_table0_row0col3{
+                        font-size: inherit;
+                        height: auto;
+                        max-width: 80%;
+                        padding-bottom: 5%;
+                        padding-left: 2%;
+                        padding-right: 2%;
+                        padding-top: 5%;
+                    }
+
+                        #id_meettheteam_table0_row0col3_img0{
+                            max-width:30%;
+                            height:auto;
+                        }
+
+        #id_quote{
+            width: inherit; 
+            height: auto;
+        }
+
+            #id_quote_table0{
+                width: inherit; 
+            }
+
+                #id_quote_table0_row0{
+                    width: inherit; 
+                }
+
+                    #id_quote_table0_row0col0{
+                        font-size: 3.5vw;
+                        letter-spacing: 1px;
+                        padding: 15%;
+                        width: inherit; 
+                    }
+
+        #id_salespitch{
+            height: auto;
+            width: auto; 
+        }
+
+            #id_salespitch_table0{
+                align-content: center;
+                height: auto;
+                margin-left: auto;
+                margin-right: auto;
+                max-width: 90%;
+                padding: 2%;
+                width: auto; 
+            }
+
+                #id_salespitch_table0_row0{ }
+
+                    #id_salespitch_table0_row0col0{
+                        font-size: 3.25vw;
+                        height: auto;
+                        margin: 2%;
+                        padding: 2%;
+                        width: auto; 
+                    }
+
+                #id_salespitch_table0_row1{
+                    background-color: inherit;
+                    font-family: inherit;
+                    text-align: inherit;
+                }
+
+                    #id_salespitch_table0_row1col0{    
+                        font-size: 2.25vw;
+                        height: auto;
+                        margin: 2%;
+                        padding: 2%;
+                        width: auto; 
+                    }    
+
+                #id_salespitch_table0_row2{ }
+
+                    #id_salespitch_table0_row2col0{
+                        height: auto;
+                        margin: 2%;
+                        padding: 2%;
+                        width: auto; 
+                    }
+
+                    #id_salespitch_table0_row2col1{
+                        height: auto;
+                        margin: 2%;
+                        padding: 2%;
+                        width: auto; 
+                    }
+
+                #id_salespitch_table0_row3{ }
+
+                    #id_salespitch_table0_row3col0{
+                        font-size: 3.25vw;
+                        height: auto;
+                        margin: 2%;
+                        padding: 2%;
+                        width: auto; 
+                    }    
+
+                    #id_salespitch_table0_row3col1{
+                        font-size: 3.25vw;
+                        height: auto;
+                        margin: 2%;
+                        padding: 2%;
+                        width: auto; 
+                    }
+
+                #id_salespitch_table0_row4{ }
+
+                    #id_salespitch_table0_row4col0{
+                        font-size: 2.25vw;
+                        height: auto;
+                        margin: 2%;
+                        padding: 2%;
+                        text-align: left;
+                        width: auto; 
+                    }
+
+                    #id_salespitch_table0_row4col1{
+                        font-size: 2.25vw;
+                        height: auto;
+                        margin: 2%;
+                        padding: 2%;
+                        text-align: left;
+                        width: auto; 
+                    }
+
+                #id_salespitch_table0_row5{ }
+
+                    #id_salespitch_table0_row5col0{
+                        font-size: 2.5vw;
+                        height: auto;
+                        margin: 2%;    
+                        padding: 2%;
+                        width: auto; 
+                    }
+
+                #id_salespitch_table0_row6{ }
+
+                    #id_salespitch_table0_row6col0{
+                        font-size: 2.5vw;
+                        height: auto;
+                        margin: 2%;
+                        padding: 2%;
+                        width: auto; 
+                    }
+
+        #id_sitefooter{
+            height: 5%;
+            width: inherit; 
+        }
+
+            #id_sitefooter_table0{
+                height: 100%;
+                width: inherit; 
+            }  
+
+                #id_sitefooter_table0_row0{ }
+
+                    #id_sitefooter_table0_row0col0{
+                        font-size: 2.25vw;
+                        width: 34%; 
+                    }
+
+        #id_siteheader{
+            width: inherit; 
+            vertical-align: middle;
+        }
+
+            #id_siteheader_table0{
+                height: auto;
+                padding-bottom: 0.5%;
+                padding-top: 0.5%;
+                width: inherit;    
+            }
+
+                #id_siteheader_table0_row0{ }
+
+                    #id_siteheader_table0_row0col0{
+                        font-size: 3vw;
+                        padding-left: 5%;
+                        width: 85%; 
+                    }
+
+                    #id_siteheader_table0_row0col1{
+                        padding-bottom: 0.5%;
+                        padding-right: 5%;
+                        padding-top: 0.5%;
+                        width: auto;
+                     }
