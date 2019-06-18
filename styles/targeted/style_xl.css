@@ -22,27 +22,45 @@
     
                     #id_aboutus_table0_row0{ }
     
-                        #id_aboutus_table0_row0col0{ }
+                        #id_aboutus_table0_row0col0{
+                            font-size: 1.5vw;
+                        }
     
-                        #id_aboutus_table0_row0col1{ }    
+                        #id_aboutus_table0_row0col1{
+                            font-size: 1.5vw;
+                        }    
     
-                        #id_aboutus_table0_row0col2{ }
+                        #id_aboutus_table0_row0col2{
+                            font-size: 1.5vw;
+                        }
     
             #id_jumbotron{ }
     
                 #id_jumbotron_table0{ }
     
-                    #id_jumbotron_table0_row0{ }
+                    #id_jumbotron_table0_row0{
+                        padding-top: 1%;
+                    }
     
-                    #id_jumbotron_table0_row1{ }
+                    #id_jumbotron_table0_row1{
+                        font-size: 3.25vw;
+                        margin: 1%;
+                    }
     
-                    #id_jumbotron_table0_row2{ }
+                    #id_jumbotron_table0_row2{
+                        margin: 1%;
+                        padding: 1%;
+                    }
     
-            #id_meettheteam{ }
+            #id_meettheteam{
+                font-size: 2.75vw;
+            }
     
                 #id_meettheteam_table0{ }
     
-                    #id_meettheteam_table0_row0{ }
+                    #id_meettheteam_table0_row0{
+                        font-size: 1.35vw;
+                    }
       
                         #id_meettheteam_table0_row0col0{
                             max-width: 20%;
@@ -86,7 +104,9 @@
     
                     #id_quote_table0_row0{ }
     
-                        #id_quote_table0_row0col0{ }
+                        #id_quote_table0_row0col0{
+                            font-size: 2.25vw;
+                        }
     
             #id_salespitch{ }
     
@@ -94,11 +114,17 @@
     
                     #id_salespitch_table0_row0{ }
     
-                        #id_salespitch_table0_row0col0{ }
+                        #id_salespitch_table0_row0col0{
+                            font-size: 2.5vw;
+                            margin: 0%;
+                            padding: 0%;
+                        }
     
                     #id_salespitch_table0_row1{ }
     
-                        #id_salespitch_table0_row1col0{ }    
+                        #id_salespitch_table0_row1col0{
+                            font-size: 1.75vw;
+                        }    
     
                     #id_salespitch_table0_row2{ }
     
@@ -108,23 +134,39 @@
     
                     #id_salespitch_table0_row3{ }
     
-                        #id_salespitch_table0_row3col0{ }    
+                        #id_salespitch_table0_row3col0{
+                            font-size: 2.25vw;
+                            margin: 0%;
+                            padding: 0%;
+                        }    
     
-                        #id_salespitch_table0_row3col1{ }
+                        #id_salespitch_table0_row3col1{
+                            font-size: 2.25vw;
+                            margin: 0%;
+                            padding: 0%;
+                        }
     
                     #id_salespitch_table0_row4{ }
     
-                        #id_salespitch_table0_row4col0{ }
+                        #id_salespitch_table0_row4col0{
+                            font-size: 1.75vw;
+                        }
     
-                        #id_salespitch_table0_row4col1{ }
+                        #id_salespitch_table0_row4col1{
+                            font-size: 1.75vw;
+                        }
     
                     #id_salespitch_table0_row5{ }
     
-                        #id_salespitch_table0_row5col0{ }
+                        #id_salespitch_table0_row5col0{
+                            font-size: 2.25vw;
+                        }
     
                     #id_salespitch_table0_row6{ }
     
-                        #id_salespitch_table0_row6col0{ }
+                        #id_salespitch_table0_row6col0{
+                            font-size: 2vw;
+                        }
     
             #id_sitefooter{ }
     
@@ -132,18 +174,23 @@
     
                     #id_sitefooter_table0_row0{ }
     
-                        #id_sitefooter_table0_row0col0{ }
+                        #id_sitefooter_table0_row0col0{
+                            font-size: 1.25vw;
+                        }
     
             #id_siteheader{ }
     
-                #id_siteheader_table0{ }
+                #id_siteheader_table0{
+                    padding-bottom: 0%;
+                    padding-top: 0%;
+                }
     
                     #id_siteheader_table0_row0{ }
     
                         #id_siteheader_table0_row0col0{
-                            font-size: 2.25vw;
+                            font-size: 2vw;
                             padding-left: 5%;
-                            width: 90%; 
+                            width: 91%; 
                         }
     
                         #id_siteheader_table0_row0col1{ }
