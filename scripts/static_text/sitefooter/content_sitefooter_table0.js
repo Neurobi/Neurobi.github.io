@@ -1,1 +1,0 @@
-$("#id_sitefooter_table0").append("")
