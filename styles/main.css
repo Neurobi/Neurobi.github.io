@@ -60,185 +60,91 @@
         display: block;
         z-index: 2;
     }
-
-        #id_aboutus{
-        }
-
-            #id_aboutus_table0{
-                color: #ffffff;
-            }
-
-                #id_aboutus_table0_row0{
-                }
-
-                    #id_aboutus_table0_row0col0{
-                    }
-
-                    #id_aboutus_table0_row0col1{
-                    }    
-
-                    #id_aboutus_table0_row0col2{
-                    }
-
+	
         #id_jumbotron{
         }
-
             #id_jumbotron_table0{
             }
-
-                #id_jumbotron_table0_row0{
-                    display: block;
-                }
-
-                #id_jumbotron_table0_row1{
-                    color: #ffffff;
-                    display: block;
-                }
-
-                #id_jumbotron_table0_row2{ /*see note in index.html, this row/text not showing up*/					
-                    color: #ffffff;
-                    display: block;
-                }
+                #id_jumbotron_table0_row0{ }
+                #id_jumbotron_table0_row1{ }
+                #id_jumbotron_table0_row2{ }/*see note in index.html, this row/text not showing up*/	
 
         #id_meettheteam{
             color: #ffffff;
             display: block;
-            
             pointer-events: none;
         }
-
             #id_meettheteam_table0{
-                
                 display: block;
-                
-                pointer-events: none;
             }
-
                 #id_meettheteam_table0_row0{
                     display: inline-block;
-                    
-                    pointer-events: none;
                 }
-  
-                    #id_meettheteam_table0_row0col0{
-                    }
-
-                        #id_meettheteam_table0_row0col0_img0{ }
-                    
-                    #id_meettheteam_table0_row0col1{
-                    }
-
-                        #id_meettheteam_table0_row0col1_img0{ }
-
-                    #id_meettheteam_table0_row0col2{
-                    }
-
-                        #id_meettheteam_table0_row0col2_img0{ }
-
-                    #id_meettheteam_table0_row0col3{
-                    }
-
-                        #id_meettheteam_table0_row0col3_img0{ }
+                    #id_meettheteam_table0_row0col0{ }
+                    #id_meettheteam_table0_row0col0_img0{ }
+                    #id_meettheteam_table0_row0col1{ }
+					#id_meettheteam_table0_row0col1_img0{ }
+                    #id_meettheteam_table0_row0col2{ }
+					#id_meettheteam_table0_row0col2_img0{ }
+                    #id_meettheteam_table0_row0col3{ }
+                    #id_meettheteam_table0_row0col3_img0{ }
 
         #id_quote{
-            
         }
-
             #id_quote_table0{
                 background-image: url("../assets/images/nasa-53884-unsplash.jpg");
-                background-size: cover;                
+                background-size: cover;  
+				color: #ffffff;				
             }
-
                 #id_quote_table0_row0{                    
                 }
-
-                    #id_quote_table0_row0col0{
-                        color: #ffffff;
-                    }
+                    #id_quote_table0_row0col0{ }
 
         #id_salespitch{
             background-color: #ffffff;
         }
-
             #id_salespitch_table0{
             }
-
                 #id_salespitch_table0_row0{                    
                 }
-
-                    #id_salespitch_table0_row0col0{                        
-                    }
-
+                    #id_salespitch_table0_row0col0{ }
                 #id_salespitch_table0_row1{    
                 }
-
-                    #id_salespitch_table0_row1col0{
-                    }    
-
+                    #id_salespitch_table0_row1col0{ }
                 #id_salespitch_table0_row2{
-                    
                 }
-
-                    #id_salespitch_table0_row2col0{                        
-                    }
-
-                    #id_salespitch_table0_row2col1{                        
-                    }
-
+                    #id_salespitch_table0_row2col0{ }
+                    #id_salespitch_table0_row2col1{ }
                 #id_salespitch_table0_row3{                    
                 }
-
-                    #id_salespitch_table0_row3col0{                        
-                    }    
-
-                    #id_salespitch_table0_row3col1{                        
-                    }
-
+                    #id_salespitch_table0_row3col0{ }
+                    #id_salespitch_table0_row3col1{ }
                 #id_salespitch_table0_row4{                    
                 }
-
-                    #id_salespitch_table0_row4col0{                        
-                    }
-
-                    #id_salespitch_table0_row4col1{                        
-                    }
-
+                    #id_salespitch_table0_row4col0{ }
+                    #id_salespitch_table0_row4col1{ }
                 #id_salespitch_table0_row5{                           
                 }
-
-                    #id_salespitch_table0_row5col0{                        
-                    }
-
+                    #id_salespitch_table0_row5col0{ }
                 #id_salespitch_table0_row6{                    
                 }
-
-                    #id_salespitch_table0_row6col0{                        
-                    }
+                    #id_salespitch_table0_row6col0{ }
 
         #id_sitefooter{            
 			color: #999999;
 			background-color: #3b3b3b; 
 			vertical-align: middle;
         }
-
-        #id_siteheader{
-            background-color: #ffffff;            
+		
+		#id_siteheader{ 
+			background-color: #ffffff;		
         }
-
             #id_siteheader_table0{                
             }
-
-                #id_siteheader_table0_row0{    
+                #id_siteheader_table0_row0{ 
                 }
-
-                    #id_siteheader_table0_row0col0{
-						vertical-align: middle;
-                        text-align: left;
-                    }
-
-                    #id_siteheader_table0_row0col1{
-                        pointer-events: all;
-                     }					 
+                    #id_siteheader_table0_row0col0{ }
+                    #id_siteheader_table0_row0col1{ }		 
 					 
 /* Defaults for html elements */
 
@@ -247,20 +153,34 @@ table, th, td{
 	text-align: center;
 }
 
-div {      
+/* Classes used multiple places */
+
+.user_accessible {
+	pointer-events: all;
 }
 
-/* Differences from the defaults used multiple places*/
-
-.left_clump{
+.header_banner_text {
+	vertical-align: middle;
 	text-align: left;
 }
-div.bio{	
+
+.jumbotron {
+	color: #ffffff;
+	display: block;
+}
+
+.bio {	
 	color: #000000;
 	background-color: #ffffff;
     border-radius: 2em;
     box-shadow: -5px 0px 5px rgba(124,124,124,0.5) inset;
-    display: inherit;    
-    pointer-events: all;
+    display: inherit;
     vertical-align: top;
 }
+
+.footer_column {
+	color: #ffffff;
+	text-align: left;
+}
+
+
