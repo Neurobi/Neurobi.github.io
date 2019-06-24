@@ -1,1 +1,1 @@
-$("#id_sitefooter").append("<br>Copyright 2019 - Neurobi Co.")
+$("#id_sitefooter").append("Copyright 2019 - Neurobi Co.")
