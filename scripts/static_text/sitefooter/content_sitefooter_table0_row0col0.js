@@ -1,0 +1,1 @@
+$("#id_sitefooter_table0_row0col0").append("Copyright 2019 - Neurobi Co.")
