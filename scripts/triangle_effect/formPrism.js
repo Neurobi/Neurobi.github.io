@@ -1,233 +1,97 @@
 function formPrism() {
+    let triangleData = []
+    let currentlist = []
+    let visitablenodes = []
+    let averagedistance = 30
+    let radiusdeviation = 20
+    let angles = pickAngleInRange(360,[0,390],1)
+    let currentvalue = [Math.random()*window.innerWidth, Math.random()*window.innerHeight]
 
-    averagedistance = 30
-    radiusdeviation = 20
-
-    triangleData = []
-    angles = pickAngleInRange(360,[0,390],1)
-    initvalue = [Math.random()*window.innerWidth, Math.random()*window.innerHeight];
-    currentvalue = initvalue
-    pointsList = []
-    pointsList.push[currentvalue]
-    currentlist = []
-    visitablenodes = []
-
-    for (j = 0; j < angles.length; j++) {
-        angle = angles[j]
-        radius = averagedistance + (radiusdeviation*Math.random())
-
-        xvalue = currentvalue[0] + radius*Math.cos(angle*Math.PI/180)
-        yvalue = currentvalue[1] + radius*Math.sin(angle*Math.PI/180)
-
-        if(inside([xvalue,yvalue],visitablenodes)) {
-            console.log("Point Outside")
-        }
-        else {
-            pointsList.push([xvalue,yvalue])
-            creationNode[xvalue+','+yvalue] = currentvalue
+    for (let j = 0; j < angles.length; j++) {
+        let radius = averagedistance + (radiusdeviation*Math.random())
+        let xvalue = currentvalue[0] + radius*Math.cos(angles[j]*Math.PI/180)
+        let yvalue = currentvalue[1] + radius*Math.sin(angles[j]*Math.PI/180)
+        if (inside([xvalue,yvalue],visitablenodes) === false) {
+            window.creationNode[xvalue+','+yvalue] = currentvalue
             if (xvalue <= window.innerWidth*1.2 && xvalue >= -0.2*window.innerWidth && yvalue <= window.innerHeight*1.2 && yvalue >= -0.2*window.innerHeight) {
                 visitablenodes.push([xvalue,yvalue])
             }
             currentlist.push([xvalue,yvalue])
         }
     }
-
-    for (k = 0; k < currentlist.length; k++) {
-        neighbors = []
-
-        index = (k - 1)
-        if (index < 0) {
-            index = index + currentlist.length
-        }
-        if (index >= currentlist.length) {
-            index = index % currentlist.length
-        }
-    
-        neighbors.push(currentlist[index])
-        index = (k + 1)
-        if (index < 0) {
-            index = index + currentlist.length
-        }
-        if (index >= currentlist.length) {
-            index = index % currentlist.length
-        }
-        neighbors.push(currentlist[index])
-        point = currentlist[k]
-        neighborConnectionData[point[0] + ',' + point[1]] = neighbors
-        triangleData.push([neighbors[0],point,currentvalue])
+    for (let k = 0; k < currentlist.length; k++) {
+        neighbors = [currentlist[(((k-1) + currentlist.length) % currentlist.length) % currentlist.length]]
+        neighbors.push(currentlist[(k + 1) % currentlist.length])
+        neighborConnectionData[currentlist[k][0] + ',' + currentlist[k][1]] = neighbors
+        triangleData.push([neighbors[0],currentlist[k],currentvalue])
     }
-
     ranges = []
-    for (m=0; m < visitablenodes.length;m++) {
-        node = visitablenodes[m]
-        ranges.push(getPossibilityRange(node, currentvalue)[0])
+    for (let m=0; m < visitablenodes.length;m++) {
+        ranges.push(getPossibilityRange(visitablenodes[m], currentvalue)[0])
     }
-
-    minvalueindex = indexOfmin(ranges)
-    nextnode = visitablenodes[minvalueindex]
-    visitablenodes.splice(minvalueindex, 1);
-
+    nextnode = visitablenodes[indexOfmin(ranges)]
+    visitablenodes.splice(indexOfmin(ranges), 1)
     while(visitablenodes.length != 0) {
-
-        prange = getPossibilityRange(nextnode, creationNode[nextnode[0]+','+nextnode[1]])
-        mainnodevalue = currentvalue
-        currentvalue = nextnode
-
-        angles = pickAngleInRange(prange[0],prange[1],prange[4])
-        startingMneigh = prange[2]
-        endingMneigh = prange[3]
-
         currentlist = []
-        for (j = 0; j < angles.length; j++) {
-
-            angle = angles[j]
+        prange = getPossibilityRange(nextnode, window.creationNode[nextnode[0]+','+nextnode[1]])
+        currentvalue = nextnode
+        angles = pickAngleInRange(prange[0],prange[1],prange[4])
+        currneighbors = neighborConnectionData[currentvalue[0] + ',' + currentvalue[1]]
+        for (let j = 0; j < angles.length; j++) {
             radius = averagedistance + (radiusdeviation*Math.random())
-
-            xvalue = currentvalue[0] + radius*Math.cos(angle*Math.PI/180)
-            yvalue = currentvalue[1] + radius*Math.sin(angle*Math.PI/180)
-
-            if(inside([xvalue,yvalue],visitablenodes)) {
-            }
-            else {
-                pointsList.push([xvalue,yvalue])
-                creationNode[xvalue+','+yvalue] = currentvalue
+            xvalue = currentvalue[0] + radius*Math.cos(angles[j]*Math.PI/180)
+            yvalue = currentvalue[1] + radius*Math.sin(angles[j]*Math.PI/180)
+            if((inside([xvalue,yvalue],visitablenodes)) === false) {
                 if (xvalue <= window.innerWidth*1.2 && xvalue >= -0.2*window.innerWidth && yvalue <= window.innerHeight*1.2 && yvalue >= -0.2*window.innerHeight) {
                     visitablenodes.push([xvalue,yvalue])
                 }
+                window.creationNode[xvalue+','+yvalue] = currentvalue
                 currentlist.push([xvalue,yvalue])
             }
         }
-
         if(currentlist.length == 0) {
-            currneighbors = neighborConnectionData[currentvalue[0] + ',' + currentvalue[1]]
-            n1 = currneighbors[0]
-            n1neighbors = neighborConnectionData[n1[0] + ',' + n1[1]]
-            if (n1neighbors[0][0] == currentvalue[0] && n1neighbors[0][1] == currentvalue[1]) {
-                n1neighbors.splice(0, 1, currneighbors[1]);
-            }
-            else {
-                n1neighbors.splice(1, 1, currneighbors[1]);
-            }
-            n2 = currneighbors[1]
-            n2neighbors = neighborConnectionData[n2[0] + ',' + n2[1]]
-            if (n2neighbors[0][0] == currentvalue[0] && n2neighbors[0][1] == currentvalue[1]) {
-                n2neighbors.splice(0, 1, currneighbors[0]);
-            }
-            else {
-                n2neighbors.splice(1, 1, currneighbors[0]);
+            for (let i = 0; i < 2; i++) {
+                neighbors = neighborConnectionData[currneighbors[i][0] + ',' + currneighbors[i][1]]
+                let j = (neighbors[0][0] == currentvalue[0] && neighbors[0][1] == currentvalue[1]) ? 0 : 1
+                neighbors.splice(j, 1, currneighbors[Math.abs(i-1)])
             }
             triangleData.push([currneighbors[0],currneighbors[1],currentvalue])
         }
-
         else if (currentlist.length == 1) {
-            point = currentlist[0]
-            currneighbors = neighborConnectionData[currentvalue[0] + ',' + currentvalue[1]]
-            neighborConnectionData[point[0] + ',' + point[1]] = currneighbors
-            triangleData.push([currneighbors[0],point,currentvalue])
-            triangleData.push([currneighbors[1],point,currentvalue])
-            sidepoint = currneighbors[0]
-            ngh = neighborConnectionData[sidepoint[0] + ',' + sidepoint[1]].slice();
-
-            if (ngh[0][0] == currentvalue[0] && ngh[0][1] == currentvalue[1]) {
-                ngh.splice(0, 1, point);
-                neighborConnectionData[sidepoint[0] + ',' + sidepoint[1]] = ngh
-            }
-            else {
-                ngh.splice(1, 1, point);
-                neighborConnectionData[sidepoint[0] + ',' + sidepoint[1]] = ngh
-            }
-
-            sidepoint = currneighbors[1]
-            ngh = neighborConnectionData[sidepoint[0] + ',' + sidepoint[1]].slice();
-            if (ngh[0][0] == currentvalue[0] && ngh[0][1] == currentvalue[1]) {
-                ngh.splice(0, 1, point);
-                neighborConnectionData[sidepoint[0] + ',' + sidepoint[1]] = ngh
-            }
-            else {
-                ngh.splice(1, 1, point);
-                neighborConnectionData[sidepoint[0] + ',' + sidepoint[1]] = ngh
+            neighborConnectionData[currentlist[0][0] + ',' + currentlist[0][1]] = currneighbors
+            for (let i = 0; i < 2; i++) {
+                let ngh = neighborConnectionData[currneighbors[i][0] + ',' + currneighbors[i][1]].slice()
+                let j = (ngh[0][0] == currentvalue[0] && ngh[0][1] == currentvalue[1]) ? 0 : 1
+                ngh.splice(j, 1, currentlist[0])
+                neighborConnectionData[currneighbors[i][0] + ',' + currneighbors[i][1]] = ngh
+                triangleData.push([currneighbors[i],currentlist[0],currentvalue])
             }
         }
-
-        else {
-            neighbors = []
-            point = currentlist[0]				
-            neighbors.push(startingMneigh)
-            sidepoint = startingMneigh
-            triangleData.push([startingMneigh,point,currentvalue])
-            ngh = neighborConnectionData[sidepoint[0] + ',' + sidepoint[1]].slice();
-
-            if (ngh[0][0] == currentvalue[0] && ngh[0][1] == currentvalue[1]) {
-                ngh.splice(0, 1, point);
-                neighborConnectionData[sidepoint[0] + ',' + sidepoint[1]] = ngh
+        else {	
+            for (let i = 0; i < 2; i++) {
+                neighbors = [prange[i+2]]
+                neighbors.push(currentlist[1 + i*(currentlist.length - 3)])
+                neighborConnectionData[currentlist[i*(currentlist.length - 1)][0] + ',' + currentlist[i*(currentlist.length - 1)][1]] = neighbors
+                let ngh = neighborConnectionData[prange[i+2][0] + ',' + prange[i+2][1]].slice()
+                let j = (ngh[0][0] == currentvalue[0] && ngh[0][1] == currentvalue[1]) ? 0 : 1
+                ngh.splice(j, 1, currentlist[i*(currentlist.length - 1)])
+                neighborConnectionData[prange[i+2][0] + ',' + prange[i+2][1]] = ngh
+                triangleData.push([prange[i+2],currentlist[i*(currentlist.length - 1)],currentvalue])
             }
-            else {
-                ngh.splice(1, 1, point);
-                neighborConnectionData[sidepoint[0] + ',' + sidepoint[1]] = ngh
+            for (let k = 1; k < currentlist.length - 1; k++) {
+                neighbors = [currentlist[(k - 1) % currentlist.length]]
+                neighbors.push(currentlist[(k + 1) % currentlist.length])
+                neighborConnectionData[currentlist[k][0] + ',' + currentlist[k][1]] = neighbors
+                triangleData.push([neighbors[0],currentlist[k],currentvalue])
             }
-
-            neighbors.push(currentlist[1])
-            neighborConnectionData[point[0] + ',' + point[1]] = neighbors
-
-            for (k = 1; k < currentlist.length - 1; k++) {
-                neighbors = []
-
-                index = (k - 1)
-                if (index < 0) {
-                    index = index + currentlist.length
-                }
-                if (index >= currentlist.length) {
-                    index = index % currentlist.length
-                }
-                
-                neighbors.push(currentlist[index])
-
-                index = (k + 1)
-                if (index < 0) {
-                    index = index + currentlist.length
-                }
-                if (index >= currentlist.length) {
-                    index = index % currentlist.length
-                }
-                neighbors.push(currentlist[index])
-                point = currentlist[k]
-                neighborConnectionData[point[0] + ',' + point[1]] = neighbors
-                triangleData.push([neighbors[0],point,currentvalue])
-            }
-
-            triangleData.push([ currentlist[currentlist.length - 2], currentlist[currentlist.length - 1],currentvalue])
-            neighbors = []
-            point = currentlist[currentlist.length - 1]
-            neighbors.push(endingMneigh)
-            sidepoint = endingMneigh
-            triangleData.push([endingMneigh,point,currentvalue])
-            ngh = neighborConnectionData[sidepoint[0] + ',' + sidepoint[1]].slice();
-            
-            if (ngh[0][0] == currentvalue[0] && ngh[0][1] == currentvalue[1]) {
-                ngh.splice(0, 1, point);
-                neighborConnectionData[sidepoint[0] + ',' + sidepoint[1]] = ngh
-            }
-            else {
-                ngh.splice(1, 1, point);
-                neighborConnectionData[sidepoint[0] + ',' + sidepoint[1]] = ngh
-            }
-            neighbors.push(currentlist[currentlist.length - 2])
-            neighborConnectionData[point[0] + ',' + point[1]] = neighbors
+            triangleData.push([currentlist[currentlist.length - 2], currentlist[currentlist.length - 1],currentvalue])
         }
         ranges = []
-
-        for (ind=0; ind < visitablenodes.length;ind++) {
-            node = visitablenodes[ind]
-            ranges.push(getPossibilityRange(node, creationNode[node[0]+','+node[1]])[0])
+        for (let ind=0; ind < visitablenodes.length;ind++) {
+            ranges.push(getPossibilityRange(visitablenodes[ind], window.creationNode[visitablenodes[ind][0]+','+visitablenodes[ind][1]])[0])
         }		
-
-        minvalueindex = indexOfmin(ranges)
-        prevPrange = ranges[minvalueindex]			
-        nextnode = visitablenodes[minvalueindex]
-        visitablenodes.splice(minvalueindex, 1);
-
+        nextnode = visitablenodes[indexOfmin(ranges)]
+        visitablenodes.splice(indexOfmin(ranges), 1)
     }
-
     return triangleData
-
 }
