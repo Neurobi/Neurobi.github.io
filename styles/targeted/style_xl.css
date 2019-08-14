@@ -41,6 +41,10 @@
                     #id_jumbotron_table0_row0{
                         padding-top: 1%;
                     }
+
+                        #id_jumbotron_table0_row0_div{
+                            max-width: 30%;
+                        }
     
                     #id_jumbotron_table0_row1{
                         font-size: 3.25vw;
