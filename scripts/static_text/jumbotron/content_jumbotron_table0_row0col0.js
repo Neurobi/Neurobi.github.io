@@ -1,1 +1,0 @@
-$("#id_jumbotron_table0_row0col0").append("l")
