@@ -349,19 +349,8 @@
         }
         node.addEventListener('animationend', handleAnimationEnd)
       }    
-
-      function loadLogo() {
-        var xhttp = new XMLHttpRequest();
-        xhttp.onreadystatechange = function() {
-          if (this.readyState == 4 && this.status == 200) {
-            $("#id_jumbotron_table0_row0_div").innerHTML = this.responseText;
-          }
-        };
-        xhttp.open("GET", "https://raw.githubusercontent.com/Neurobi/Neurobi.github.io/master/assets/vectors/neurobilogo.xml", true);
-        xhttp.send();
-      }
-
-      loadLogo();
+      // By the way, I love AJAX for letting me do the trick below so easily...
+      $("#id_jumbotron_table0_row0_div").load("https://raw.githubusercontent.com/Neurobi/Neurobi.github.io/master/assets/vectors/neurobilogo.xml"); 
     </script>
     <!--v   Close script tag for the logo graphic effect   v-->
 
